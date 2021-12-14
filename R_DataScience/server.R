@@ -10,7 +10,7 @@ shinyServer(function(input, output) {
   })
   
   output$text3colour <- renderText({
-    paste("Colour of histogram is: ", input$radio)
+    paste("Color of histogram is: ", input$radio)
   })
   
   output$distPlot <- renderPlot({
